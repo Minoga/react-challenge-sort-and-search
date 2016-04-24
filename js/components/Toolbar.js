@@ -3,7 +3,7 @@ import React from 'react';
 export default class Toolbar extends React.Component {
     static propTypes() {
         return {
-            filterFunction: React.PropTypes.array.isRequired,
+            filterFunction: React.PropTypes.array.isRequired
         };
     }
 
